@@ -16,10 +16,10 @@ the pricing will be done according to default prices and offers given in the exe
   
 java -jar ShoppingBasket.jar [item list]= item1 item2 item3....  
   
-ex: java -jar shoppingBasket-1.0.0.jar Apples Milk Apples Bread  
+ex: java -jar shoppingBasket-0.0.1.jar Apples Milk Apples Bread  
   
   
 ####How to configure ??  
 if you want to configure the price list and the special offers available, you can give as system properties the file paths  
   
-ex: java -jar -DshoppingBasket.pricer.priceList=./priceList.properties -DshoppingBasket.pricer.offerList=./offersList.properties shoppingBasket Apples Soup Bread ...  
+ex: java -jar -DshoppingBasket.pricer.priceList=./priceList.properties -DshoppingBasket.pricer.offerList=./offersList.properties shoppingBasket-0.0.1.jar Apples Soup Bread ...  
