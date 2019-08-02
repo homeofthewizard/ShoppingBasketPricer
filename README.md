@@ -14,9 +14,7 @@ mvn clean package
 Simply run the jar file like below, by giving as argument the item list you want to put in basket.  
 the pricing will be done according to default prices and offers given in the exercise description  
   
-java -jar ShoppingBasket.jar [item list]= item1 item2 item3....  
-  
-ex: java -jar shoppingBasket-0.0.1.jar Apples Milk Apples Bread  
+ex: java -jar shoppingBasket-0.0.1.jar Apples Milk Apples Bread ...
   
   
 #### How to configure ??  
